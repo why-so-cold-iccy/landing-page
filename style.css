@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.blue {
+    height: 55vh;
+    background-color: rgb(10, 10, 15);
+    color: aliceblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-top: 18px;
+}
+
+li {
+    color: azure;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-grow: 1;
+    padding: 8px;
+    margin: auto;
+    gap: 130px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-top: 40px;
+}
+
+.box1 {
+    max-width: 600px;
+
+}
+
+.box1 p {
+    font-size: 30px;
+}
+
+.box1 h1 {
+    font-size: 50px;
+}
+
+button {
+    margin-top: 12px;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 76px;
+    width: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 45vh;
+    margin-bottom: 0px;
+}
+
+.cards {
+    min-width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 0px;
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    padding-top: 15px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+
+}
+
+.boxes p {
+    text-align: center;
+}
+
+.one {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_IuEqRbbs_vht24Y0Uuj5KJDm7cAh4GaALg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.two {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsoN4HsIie2R12lcr4g0AtzIVvtgn09P78g&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.three {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2d28c44-1942-435b-965f-8801cd5f6a19/dezpuh5-fe846fbc-e717-4f55-a78a-b68777e28fd4.jpg/v1/fill/w_1280,h_1877,q_75,strp/batman_who_laughs_after_jim_lee_by_robertmarzullo_dezpuh5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg3NyIsInBhdGgiOiIvZi9lMmQyOGM0NC0xOTQyLTQzNWItOTY1Zi04ODAxY2Q1ZjZhMTkvZGV6cHVoNS1mZTg0NmZiYy1lNzE3LTRmNTUtYTc4YS1iNjg3NzdlMjhmZDQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.93etQw4O9A2KDMx34gVZ6PnXaw8vczw8JrTm006OaAY);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.four {
+    background-image: url(https://i.ytimg.com/vi/mSkZvzoK_4g/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.quote {
+    height: 45vh;
+    background: rgb(210, 210, 210);
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 40px;
+}
+
+.textbox {
+    width: 900px;
+}
+
+.signup {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join {
+    height: 60%;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    padding: 25px;
+}
+
+.join p {
+    font-size: 24px;
+}
+
+.join button {
+    background: yellow;
+}
+
+.footer{
+    height: 5vh;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
